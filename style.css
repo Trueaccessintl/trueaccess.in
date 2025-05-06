@@ -81,13 +81,14 @@ body::-webkit-scrollbar {
   text-shadow: 0 2px 8px #000a;
 }
 
-.hero-subtitle {
+.hero-subtitle {  
   position: absolute;
   top: 72%; /* Adjust vertically as needed */
   right: 150px;
   color: #15a4e1;
   font-size: 2rem;
   font-family: "Shadows Into Light", cursive;
+  
   opacity: 0;
   animation: fadeInUp 1.2s 0.4s forwards;
   white-space: nowrap;
@@ -198,7 +199,7 @@ body::-webkit-scrollbar {
   transform: translateY(-3px);
 }
 .nurturing-text {
-  font-family: 'Ink Free', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 1.2em;
   color: #15a4e1;
 }

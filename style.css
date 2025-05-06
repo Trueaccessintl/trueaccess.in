@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
   right: 150px;
   color: #15a4e1;
   font-size: 2rem;
-  font-family: 'Ink Free', cursive;
+  font-family: 'Ink Free';
   opacity: 0;
   animation: fadeInUp 1.2s 0.4s forwards;
   white-space: nowrap;

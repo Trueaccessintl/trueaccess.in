@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
   right: 150px;
   color: #15a4e1;
   font-size: 2rem;
-  font-family: 'Bradley Hand ITC';
+  font-family: 'Bradley Hand ITC', cursive;
   animation: fadeInUp 1.2s 0.4s forwards;
   white-space: nowrap;
 }
@@ -151,6 +151,10 @@ body::-webkit-scrollbar {
   color: #e0e0e0;
   font-size: 1.8rem;
   animation: fadeIn 2s 1.2s backwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 .contact-section strong {
   color: #bdbdbd;
@@ -258,7 +262,7 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 90px;
   border-radius: 20px;
   box-shadow: 0 2px 8px #0003;
   border: 1px solid #0003;
@@ -268,10 +272,20 @@ img {
   transition: all 0.3s ease;
 }
 .hero-img:hover {
-  
   box-shadow: 0 4px 16px #0005;
   opacity: 1;
   border: 1px solid #0005;
   padding: 10px;
   background-color: #0003;
+}
+
+.contact-img {
+  max-width: 90%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+
+.contact-content {
+  width: 100%;
 }
